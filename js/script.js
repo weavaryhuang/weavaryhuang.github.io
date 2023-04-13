@@ -342,8 +342,8 @@ var flag_kat = 0;
 var flag_oth = 0;  
 var flag_ath = 0;  
 
-let txt = '{"japan":[{"char":"あ", "sp":"a"}], "korean":[{"char":"aaa", "sp":"bbb"}]}';
-const obj = JSON.parse(txt);
+//let txt = '{"japan": [{"char": "あ","sp": "a"},{"char": "abc","sp": "i"}],"korean": [{"char": "aaa","sp": "bbb"}]}'
+const obj = JSON.parse(data);
 
 var randomNum = randomMake();
 document.getElementById('demo').innerHTML = nihongana[randomNum];
@@ -419,7 +419,7 @@ function checkValue(){
       document.getElementById('demo').innerHTML = nihongana[randomNum];
       input.value = "";
       count += 1;
-      document.getElementById('total').innerHTML = obj.korean[0].char;
+      document.getElementById('total').innerHTML = obj.japan[0].char;
       document.getElementById('rate').innerHTML = Math.floor((score/count)*100);
       document.getElementById('bar').value = Math.floor((score/count)*100);
      }
