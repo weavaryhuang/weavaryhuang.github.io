@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-japan = '{"hiragana": [{"char": "あ","sp": "a"},{"char": "い","sp": "i"},{"char": "う","sp": "u"},{"char": "え","sp": "e"},{"char": "お","sp": "o"}]}';
-=======
 japan = '{"hiragana":[' + 
 '{"char": "あ","sp": "a"},{"char": "い","sp": "i"},{"char": "う","sp": "u"},{"char": "え","sp": "e"},{"char": "お","sp": "o"},' + 
 '{"char": "か","sp": "ka"},{"char": "き","sp": "ki"},{"char": "く","sp": "ku"},{"char": "け","sp": "ke"},{"char": "こ","sp": "ko"},' + 
@@ -13,4 +10,3 @@ japan = '{"hiragana":[' +
 '{"char": "ら","sp": "ra"},{"char": "り","sp": "ri"},{"char": "る","sp": "ru"},{"char": "れ","sp": "re"},{"char": "ろ","sp": "ro"},' + 
 '{"char": "わ","sp": "wa"},{"char": "を","sp": "wo"},{"char": "ん","sp": "n"}' + 
 ']}' ;
->>>>>>> test
