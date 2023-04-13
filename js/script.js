@@ -346,7 +346,7 @@ var flag_ath = 0;
 const obj = JSON.parse(japan);
 
 var randomNum = randomMake();
-document.getElementById('demo').innerHTML = nihongana[randomNum];
+document.getElementById('demo').innerHTML = obj.hiragana[randomNum].char;
 document.getElementById('mode').innerHTML = "Hiragana mode";
 document.getElementById('mode').style.color = 'coral';
 
@@ -387,7 +387,7 @@ function allmode(){
 }
 
 function randomMake(){
-    return (Math.floor(Math.random()*num) + num_offset);
+    return (Math.floor(Math.random()*num)+ num_offset);
 }
 
 function checkValue(){
@@ -395,13 +395,13 @@ function checkValue(){
     input.addEventListener("keypress", function(event) {
     if (event.key === " ") {
      event.preventDefault();
-     if (input.value == nih_sp[randomNum]){
+     if (input.value == obj.hiragana[randomNum].sp){
       checkFlag = 1;  
       document.getElementById('correction').innerHTML = 'Correct answer!!';
       document.getElementById('correction').style.color = 'green';
       //alert(checkFlag);
       randomNum = randomMake();
-      document.getElementById('demo').innerHTML = nihongana[randomNum];
+      document.getElementById('demo').innerHTML = obj.hiragana[randomNum].char;
       input.value = "";
       score += 1;
       count += 1;
@@ -412,14 +412,14 @@ function checkValue(){
      }
      else{
       checkFlag = 0;
-      document.getElementById('correction').innerHTML = 'Wrong word! correct is ' + nih_sp[randomNum];
+      document.getElementById('correction').innerHTML = 'Wrong word! correct is ' + obj.hiragana[randomNum].sp;
       document.getElementById('correction').style.color = 'crimson';
       //alert(checkFlag);
       randomNum = randomMake();
-      document.getElementById('demo').innerHTML = nihongana[randomNum];
+      document.getElementById('demo').innerHTML = obj.hiragana[randomNum].char;
       input.value = "";
       count += 1;
-      document.getElementById('total').innerHTML = obj.hiragana[0].char;
+      document.getElementById('total').innerHTML = count;
       document.getElementById('rate').innerHTML = Math.floor((score/count)*100);
       document.getElementById('bar').value = Math.floor((score/count)*100);
      }

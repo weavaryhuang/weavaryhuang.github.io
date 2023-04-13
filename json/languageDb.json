@@ -1,1 +1,12 @@
-japan = '{"hiragana": [{"char": "あ","sp": "a"},{"char": "い","sp": "i"},{"char": "う","sp": "u"},{"char": "え","sp": "e"},{"char": "お","sp": "o"}]}';
+japan = '{"hiragana":[' + 
+'{"char": "あ","sp": "a"},{"char": "い","sp": "i"},{"char": "う","sp": "u"},{"char": "え","sp": "e"},{"char": "お","sp": "o"},' + 
+'{"char": "か","sp": "ka"},{"char": "き","sp": "ki"},{"char": "く","sp": "ku"},{"char": "け","sp": "ke"},{"char": "こ","sp": "ko"},' + 
+'{"char": "さ","sp": "sa"},{"char": "し","sp": "shi"},{"char": "す","sp": "su"},{"char": "せ","sp": "se"},{"char": "そ","sp": "so"},' + 
+'{"char": "た","sp": "ta"},{"char": "ち","sp": "chi"},{"char": "つ","sp": "tsu"},{"char": "て","sp": "te"},{"char": "と","sp": "to"},' + 
+'{"char": "な","sp": "na"},{"char": "に","sp": "ni"},{"char": "ぬ","sp": "nu"},{"char": "ね","sp": "ne"},{"char": "の","sp": "no"},' + 
+'{"char": "は","sp": "ha"},{"char": "ひ","sp": "hi"},{"char": "ふ","sp": "fu"},{"char": "へ","sp": "he"},{"char": "ほ","sp": "ho"},' + 
+'{"char": "ま","sp": "ma"},{"char": "み","sp": "mi"},{"char": "む","sp": "mu"},{"char": "め","sp": "me"},{"char": "も","sp": "mo"},' + 
+'{"char": "や","sp": "ya"},{"char": "ゆ","sp": "yu"},{"char": "よ","sp": "yo"},' + 
+'{"char": "ら","sp": "ra"},{"char": "り","sp": "ri"},{"char": "る","sp": "ru"},{"char": "れ","sp": "re"},{"char": "ろ","sp": "ro"},' + 
+'{"char": "わ","sp": "wa"},{"char": "を","sp": "wo"},{"char": "ん","sp": "n"}' + 
+']}' ;
