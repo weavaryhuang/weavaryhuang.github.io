@@ -348,7 +348,16 @@ const obj = JSON.parse(japan);
 var randomNum = randomMake();
 
 var arrayMain = [];
+var hiraganaArray = [];
+var katakanaArray  = [];
+var otherArray = [];
+
 arrayMain = obj.hiragana;
+hiragnaArray= obj.hiragana;
+katakanaArray= obj.katakana;
+otherArray= obj.other;
+
+
 document.getElementById('demo').innerHTML = arrayMain[randomNum].char;
 document.getElementById('mode').innerHTML = "Hiragana mode";
 document.getElementById('mode').style.color = 'coral';
@@ -373,18 +382,18 @@ function katakanamode(){
 }
 
 function othermode(){
-    num = 40;
-    num_offset = 92;
-    arrayMain = obj.hiragana;
+    num = 50;
+    num_offset = 0;
+    arrayMain = obj.other;
     document.getElementById('mode').innerHTML = "Other mode";
     document.getElementById('mode').style.color = 'red';
     flag_oth = !flag_oth;
 }
 
 function allmode(){
-    num = 132;
+    num = 92;
     num_offset = 0;
-    mode_string = "Hiragana mode";
+    arrayMain = arrayMain.concat(katakanaArray);
     document.getElementById('mode').innerHTML = "All mode";
     document.getElementById('mode').style.color = 'black';
     flag_ath = !flag_ath;
