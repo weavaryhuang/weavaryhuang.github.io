@@ -42,16 +42,11 @@ korean = '{"consonants":[' +
 '{"char": "ㄸ","sp": "tt"},{"char": "ㅃ","sp": "pp"},{"char": "ㅉ","sp": "jj"},{"char": "ㅆ","sp": "ss"}]' +
 ',' +
 '"vowels":[' + 
-'{"char": "ア","sp": "a"},{"char":  "イ","sp": "i"},{"char":  "ウ","sp": "u"},{"char":  "エ","sp": "e"},{"char":  "オ","sp": "o"},' + 
-'{"char": "カ","sp": "ka"},{"char": "キ","sp": "ki"},{"char": "ク","sp": "ku"},{"char": "ケ","sp": "ke"},{"char": "コ","sp": "ko"},' + 
-'{"char": "サ","sp": "sa"},{"char": "シ","sp": "shi"},{"char":"ス","sp": "su"},{"char": "セ","sp": "se"},{"char": "ソ","sp": "so"},' + 
-'{"char": "タ","sp": "ta"},{"char": "チ","sp": "chi"},{"char":"ツ","sp": "tsu"},{"char":"テ","sp": "te"},{"char": "ト","sp": "to"},' + 
-'{"char": "ナ","sp": "na"},{"char": "ニ","sp": "ni"},{"char": "ヌ","sp": "nu"},{"char": "ネ","sp": "ne"},{"char": "ノ","sp": "no"},' + 
-'{"char": "ハ","sp": "ha"},{"char": "ヒ","sp": "hi"},{"char": "フ","sp": "fu"},{"char": "ヘ","sp": "he"},{"char": "ホ","sp": "ho"},' + 
-'{"char": "マ","sp": "ma"},{"char": "ミ","sp": "mi"},{"char": "ム","sp": "mu"},{"char": "メ","sp": "me"},{"char": "モ","sp": "mo"},' + 
-'{"char": "ヤ","sp": "ya"},{"char": "ユ","sp": "yu"},{"char": "ユ","sp": "yo"},' + 
-'{"char": "ラ","sp": "ra"},{"char": "リ","sp": "ri"},{"char": "ル","sp": "ru"},{"char": "レ","sp": "re"},{"char": "ロ","sp": "ro"},' + 
-'{"char": "ワ","sp": "wa"},{"char": "ヲ","sp": "wo"},{"char": "ン","sp": "n"}]' +
+'{"char": "ㅏ","sp": "g"},{"char": "ㅑ","sp": "n"},{"char": "ㅓ","sp": "d"},{"char": "ㅕ","sp": "r"},{"char": "ㅗ","sp": "m"},' + 
+'{"char": "ㅛ","sp": "b"},{"char": "ㅜ","sp": "s"},{"char": "ㅠ","sp": "ng"},{"char": "ㅡ","sp": "j"},{"char": "ㅣ","sp": "ch"},' + 
+'{"char": "ㅢ","sp": "k"},{"char": "ㅚ","sp": "t"},{"char": "ㅐ","sp": "p"},{"char": "ㅟ","sp": "h"},{"char": "ㅔ","sp": "kk"},' + 
+'{"char": "ㅒ","sp": "tt"},{"char": "ㅖ","sp": "pp"},{"char": "ㅘ","sp": "jj"},{"char": "ㅝ","sp": "ss"},{"char": "ㅙ","sp": "ss"},' +
+'{"char": "ㅒ","sp": "tt"}]' +
 ',' +
 '"ganada":[' + 
 '{"char": "が","sp": "ga"},{"char": "ぎ","sp": "gi"},{"char": "ぐ","sp": "gu"},{"char": "げ","sp": "ge"},{"char": "ご","sp": "go"},' + 
