@@ -346,9 +346,13 @@ var flag_ath = 0;
 const obj = JSON.parse(japan);
 
 var randomNum = randomMake();
-document.getElementById('demo').innerHTML = obj.hiragana[randomNum].char;
+
+var arrayMain = [];
+arrayMain = obj.hiragana[randomNum];
+document.getElementById('demo').innerHTML = arrayMain.char;
 document.getElementById('mode').innerHTML = "Hiragana mode";
 document.getElementById('mode').style.color = 'coral';
+
 
 function hiraganamode(){
     num = 46;
