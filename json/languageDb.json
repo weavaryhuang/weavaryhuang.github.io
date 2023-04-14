@@ -42,11 +42,11 @@ korean = '{"consonants":[' +
 '{"char": "ㄸ","sp": "tt"},{"char": "ㅃ","sp": "pp"},{"char": "ㅉ","sp": "jj"},{"char": "ㅆ","sp": "ss"}]' +
 ',' +
 '"vowels":[' + 
-'{"char": "ㅏ","sp": "g"},{"char": "ㅑ","sp": "n"},{"char": "ㅓ","sp": "d"},{"char": "ㅕ","sp": "r"},{"char": "ㅗ","sp": "m"},' + 
-'{"char": "ㅛ","sp": "b"},{"char": "ㅜ","sp": "s"},{"char": "ㅠ","sp": "ng"},{"char": "ㅡ","sp": "j"},{"char": "ㅣ","sp": "ch"},' + 
-'{"char": "ㅢ","sp": "k"},{"char": "ㅚ","sp": "t"},{"char": "ㅐ","sp": "p"},{"char": "ㅟ","sp": "h"},{"char": "ㅔ","sp": "kk"},' + 
-'{"char": "ㅒ","sp": "tt"},{"char": "ㅖ","sp": "pp"},{"char": "ㅘ","sp": "jj"},{"char": "ㅝ","sp": "ss"},{"char": "ㅙ","sp": "ss"},' +
-'{"char": "ㅒ","sp": "tt"}]' +
+'{"char": "ㅏ","sp": "a"},{"char": "ㅑ","sp": "ya"},{"char": "ㅓ","sp": "eo"},{"char": "ㅕ","sp": "yeo"},{"char": "ㅗ","sp": "o"},' + 
+'{"char": "ㅛ","sp": "yo"},{"char": "ㅜ","sp": "u"},{"char": "ㅠ","sp": "yu"},{"char": "ㅡ","sp": "eu"},{"char": "ㅣ","sp": "i"},' + 
+'{"char": "ㅢ","sp": "ui"},{"char": "ㅚ","sp": "oe"},{"char": "ㅐ","sp": "ae"},{"char": "ㅟ","sp": "wo"},{"char": "ㅔ","sp": "e"},' + 
+'{"char": "ㅒ","sp": "yae"},{"char": "ㅖ","sp": "ye"},{"char": "ㅘ","sp": "wa"},{"char": "ㅝ","sp": "wo"},{"char": "ㅙ","sp": "wae"},' +
+'{"char": "ㅞ","sp": "we"}]' +
 ',' +
 '"ganada":[' + 
 '{"char": "が","sp": "ga"},{"char": "ぎ","sp": "gi"},{"char": "ぐ","sp": "gu"},{"char": "げ","sp": "ge"},{"char": "ご","sp": "go"},' + 
