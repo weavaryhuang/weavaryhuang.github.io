@@ -23,14 +23,14 @@ japan = '{"hiragana":[' +
 '{"char": "ワ","sp": "wa"},{"char": "ヲ","sp": "wo"},{"char": "ン","sp": "n"}]' +
 ',' +
 '"other":[' + 
-'{"char": "が","sp": "a"},{"char":  "ぎ","sp": "i"},{"char":  "ぐ","sp": "u"},{"char":  "げ","sp": "e"},{"char":  "ご","sp": "o"},' + 
-'{"char": "ざ","sp": "ka"},{"char": "じ","sp": "ki"},{"char": "ず","sp": "ku"},{"char": "ぜ","sp": "ke"},{"char": "ぞ","sp": "ko"},' + 
-'{"char": "だ","sp": "sa"},{"char": "ぢ","sp": "shi"},{"char":"づ","sp": "su"},{"char": "で","sp": "se"},{"char": "ど","sp": "so"},' + 
-'{"char": "ば","sp": "ta"},{"char": "び","sp": "chi"},{"char":"ぶ","sp": "tsu"},{"char":"べ","sp": "te"},{"char": "ぼ","sp": "to"},' + 
-'{"char": "ガ","sp": "na"},{"char": "ギ","sp": "ni"},{"char": "グ","sp": "nu"},{"char": "ゲ","sp": "ne"},{"char": "ゴ","sp": "no"},' + 
-'{"char": "ザ","sp": "ha"},{"char": "ジ","sp": "hi"},{"char": "ズ","sp": "fu"},{"char": "ゼ","sp": "he"},{"char": "ゾ","sp": "ho"},' + 
-'{"char": "ダ","sp": "ma"},{"char": "ヂ","sp": "mi"},{"char": "ヅ","sp": "mu"},{"char": "デ","sp": "me"},{"char": "ド","sp": "mo"},' + 
-'{"char": "バ","sp": "ya"},{"char": "ビ","sp": "yu"},{"char": "ブ","sp": "yo"},{"char": "ベ","sp": "me"},{"char": "ボ","sp": "mo"},' + 
-'{"char": "ぱ","sp": "ra"},{"char": "ぴ","sp": "ri"},{"char": "ぷ","sp": "ru"},{"char": "ぺ","sp": "re"},{"char": "ぽ","sp": "ro"},' + 
-'{"char": "パ","sp": "wa"},{"char": "ピ","sp": "wo"},{"char": "プ","sp": "n" },{"char": "ペ","sp": "re"},{"char": "ポ","sp": "ro"}]' +
+'{"char": "が","sp": "ga"},{"char": "ぎ","sp": "gi"},{"char": "ぐ","sp": "gu"},{"char": "げ","sp": "ge"},{"char": "ご","sp": "go"},' + 
+'{"char": "ざ","sp": "za"},{"char": "じ","sp": "zi"},{"char": "ず","sp": "zu"},{"char": "ぜ","sp": "ze"},{"char": "ぞ","sp": "zo"},' + 
+'{"char": "だ","sp": "da"},{"char": "ぢ","sp": "zi"},{"char":"づ","sp": "zu"},{"char": "で","sp": "de"},{"char": "ど","sp": "do"},' + 
+'{"char": "ば","sp": "ba"},{"char": "び","sp": "bi"},{"char":"ぶ","sp": "bu"},{"char":"べ","sp": "be"},{"char": "ぼ","sp": "bo"},' + 
+'{"char": "ガ","sp": "ga"},{"char": "ギ","sp": "gi"},{"char": "グ","sp": "gu"},{"char": "ゲ","sp": "ge"},{"char": "ゴ","sp": "go"},' + 
+'{"char": "ザ","sp": "za"},{"char": "ジ","sp": "zi"},{"char": "ズ","sp": "zu"},{"char": "ゼ","sp": "ze"},{"char": "ゾ","sp": "zo"},' + 
+'{"char": "ダ","sp": "da"},{"char": "ヂ","sp": "zi"},{"char": "ヅ","sp": "zu"},{"char": "デ","sp": "de"},{"char": "ド","sp": "do"},' + 
+'{"char": "バ","sp": "ba"},{"char": "ビ","sp": "bi"},{"char": "ブ","sp": "bo"},{"char": "ベ","sp": "be"},{"char": "ボ","sp": "bo"},' + 
+'{"char": "ぱ","sp": "pa"},{"char": "ぴ","sp": "pi"},{"char": "ぷ","sp": "pu"},{"char": "ぺ","sp": "pe"},{"char": "ぽ","sp": "po"},' + 
+'{"char": "パ","sp": "pa"},{"char": "ピ","sp": "pi"},{"char": "プ","sp": "pu" },{"char": "ペ","sp": "pe"},{"char": "ポ","sp": "po"}]' +
 '}';
