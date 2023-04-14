@@ -10,6 +10,7 @@ var flag_hir = 1;
 var flag_kat = 0;  
 var flag_oth = 0;  
 var flag_ath = 0;  
+var flag_chm = 0;
 
 //let txt = '{"japan": [{"char": "あ","sp": "a"},{"char": "abc","sp": "i"}],"korean": [{"char": "aaa","sp": "bbb"}]}'
 const obj = JSON.parse(japan);
@@ -115,6 +116,14 @@ function clearAll(){
     document.getElementById('total').innerHTML = 0;
     document.getElementById('rate').innerHTML = 0; 
     document.getElementById('bar').value = 0;
+}
+
+function changelanMode1(){
+    document.getElementById('btn1').innerHTML = "Hiragana";
+}
+
+function changelanMode2(){
+    document.getElementById('btn1').innerHTML = "Korean";
 }
 
 function timeUp() {
