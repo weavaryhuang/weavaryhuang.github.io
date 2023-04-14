@@ -348,8 +348,8 @@ const obj = JSON.parse(japan);
 var randomNum = randomMake();
 
 var arrayMain = [];
-arrayMain = obj.hiragana[randomNum];
-document.getElementById('demo').innerHTML = arrayMain.char;
+arrayMain = obj.hiragana;
+document.getElementById('demo').innerHTML = arrayMain[randomNum].char;
 document.getElementById('mode').innerHTML = "Hiragana mode";
 document.getElementById('mode').style.color = 'coral';
 
@@ -399,13 +399,13 @@ function checkValue(){
     input.addEventListener("keypress", function(event) {
     if (event.key === " ") {
      event.preventDefault();
-     if (input.value == obj.hiragana[randomNum].sp){
+     if (input.value == arrayMain[randomNum].sp){
       checkFlag = 1;  
       document.getElementById('correction').innerHTML = 'Correct answer!!';
       document.getElementById('correction').style.color = 'green';
       //alert(checkFlag);
       randomNum = randomMake();
-      document.getElementById('demo').innerHTML = obj.hiragana[randomNum].char;
+      document.getElementById('demo').innerHTML = arrayMain[randomNum].char;
       input.value = "";
       score += 1;
       count += 1;
@@ -416,11 +416,11 @@ function checkValue(){
      }
      else{
       checkFlag = 0;
-      document.getElementById('correction').innerHTML = 'Wrong word! correct is ' + obj.hiragana[randomNum].sp;
+      document.getElementById('correction').innerHTML = 'Wrong word! correct is ' + arrayMain[randomNum].sp;
       document.getElementById('correction').style.color = 'crimson';
       //alert(checkFlag);
       randomNum = randomMake();
-      document.getElementById('demo').innerHTML = obj.hiragana[randomNum].char;
+      document.getElementById('demo').innerHTML = arrayMain[randomNum].char;
       input.value = "";
       count += 1;
       document.getElementById('total').innerHTML = count;
