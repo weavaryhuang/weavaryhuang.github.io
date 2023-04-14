@@ -352,11 +352,10 @@ var hiraganaArray = [];
 var katakanaArray  = [];
 var otherArray = [];
 
-arrayMain = obj.hiragana;
-hiragnaArray= obj.hiragana;
+hiraganaArray= obj.hiragana;
 katakanaArray= obj.katakana;
-otherArray= obj.other;
-
+otherArray= obj.hiragana;
+arrayMain = obj.hiragana.concat(obj.katakana, obj.other);
 
 document.getElementById('demo').innerHTML = arrayMain[randomNum].char;
 document.getElementById('mode').innerHTML = "Hiragana mode";
@@ -366,6 +365,7 @@ document.getElementById('mode').style.color = 'coral';
 function hiraganamode(){
     num = 46;
     num_offset = 0;
+    arrayMain = [];
     arrayMain = obj.hiragana;
     document.getElementById('mode').innerHTML = "Hiragana mode";
     document.getElementById('mode').style.color = 'coral';
@@ -375,6 +375,7 @@ function hiraganamode(){
 function katakanamode(){
     num = 46;
     num_offset = 0;
+    arrayMain = [];
     arrayMain = obj.katakana;
     document.getElementById('mode').innerHTML = "Katakana mode";
     document.getElementById('mode').style.color = 'blue';
@@ -384,6 +385,7 @@ function katakanamode(){
 function othermode(){
     num = 50;
     num_offset = 0;
+    arrayMain = [];
     arrayMain = obj.other;
     document.getElementById('mode').innerHTML = "Other mode";
     document.getElementById('mode').style.color = 'red';
@@ -391,9 +393,10 @@ function othermode(){
 }
 
 function allmode(){
-    num = 92;
+    num = 142;
     num_offset = 0;
-    arrayMain = arrayMain.concat(katakanaArray);
+    arrayMain = [];
+    arrayMain = obj.hiragana.concat(obj.katakana, obj.other);
     document.getElementById('mode').innerHTML = "All mode";
     document.getElementById('mode').style.color = 'black';
     flag_ath = !flag_ath;
