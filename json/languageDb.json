@@ -34,3 +34,40 @@ japan = '{"hiragana":[' +
 '{"char": "ぱ","sp": "pa"},{"char": "ぴ","sp": "pi"},{"char": "ぷ","sp": "pu"},{"char": "ぺ","sp": "pe"},{"char": "ぽ","sp": "po"},' + 
 '{"char": "パ","sp": "pa"},{"char": "ピ","sp": "pi"},{"char": "プ","sp": "pu" },{"char": "ペ","sp": "pe"},{"char": "ポ","sp": "po"}]' +
 '}';
+
+korean = '{"hiragana":[' + 
+'{"char": "あ","sp": "a"},{"char": "い","sp": "i"},{"char": "う","sp": "u"},{"char": "え","sp": "e"},{"char": "お","sp": "o"},' + 
+'{"char": "か","sp": "ka"},{"char": "き","sp": "ki"},{"char": "く","sp": "ku"},{"char": "け","sp": "ke"},{"char": "こ","sp": "ko"},' + 
+'{"char": "さ","sp": "sa"},{"char": "し","sp": "shi"},{"char": "す","sp": "su"},{"char": "せ","sp": "se"},{"char": "そ","sp": "so"},' + 
+'{"char": "た","sp": "ta"},{"char": "ち","sp": "chi"},{"char": "つ","sp": "tsu"},{"char": "て","sp": "te"},{"char": "と","sp": "to"},' + 
+'{"char": "な","sp": "na"},{"char": "に","sp": "ni"},{"char": "ぬ","sp": "nu"},{"char": "ね","sp": "ne"},{"char": "の","sp": "no"},' + 
+'{"char": "は","sp": "ha"},{"char": "ひ","sp": "hi"},{"char": "ふ","sp": "fu"},{"char": "へ","sp": "he"},{"char": "ほ","sp": "ho"},' + 
+'{"char": "ま","sp": "ma"},{"char": "み","sp": "mi"},{"char": "む","sp": "mu"},{"char": "め","sp": "me"},{"char": "も","sp": "mo"},' + 
+'{"char": "や","sp": "ya"},{"char": "ゆ","sp": "yu"},{"char": "よ","sp": "yo"},' + 
+'{"char": "ら","sp": "ra"},{"char": "り","sp": "ri"},{"char": "る","sp": "ru"},{"char": "れ","sp": "re"},{"char": "ろ","sp": "ro"},' + 
+'{"char": "わ","sp": "wa"},{"char": "を","sp": "wo"},{"char": "ん","sp": "n"}]' +
+',' +
+'"katakana":[' + 
+'{"char": "ア","sp": "a"},{"char":  "イ","sp": "i"},{"char":  "ウ","sp": "u"},{"char":  "エ","sp": "e"},{"char":  "オ","sp": "o"},' + 
+'{"char": "カ","sp": "ka"},{"char": "キ","sp": "ki"},{"char": "ク","sp": "ku"},{"char": "ケ","sp": "ke"},{"char": "コ","sp": "ko"},' + 
+'{"char": "サ","sp": "sa"},{"char": "シ","sp": "shi"},{"char":"ス","sp": "su"},{"char": "セ","sp": "se"},{"char": "ソ","sp": "so"},' + 
+'{"char": "タ","sp": "ta"},{"char": "チ","sp": "chi"},{"char":"ツ","sp": "tsu"},{"char":"テ","sp": "te"},{"char": "ト","sp": "to"},' + 
+'{"char": "ナ","sp": "na"},{"char": "ニ","sp": "ni"},{"char": "ヌ","sp": "nu"},{"char": "ネ","sp": "ne"},{"char": "ノ","sp": "no"},' + 
+'{"char": "ハ","sp": "ha"},{"char": "ヒ","sp": "hi"},{"char": "フ","sp": "fu"},{"char": "ヘ","sp": "he"},{"char": "ホ","sp": "ho"},' + 
+'{"char": "マ","sp": "ma"},{"char": "ミ","sp": "mi"},{"char": "ム","sp": "mu"},{"char": "メ","sp": "me"},{"char": "モ","sp": "mo"},' + 
+'{"char": "ヤ","sp": "ya"},{"char": "ユ","sp": "yu"},{"char": "ユ","sp": "yo"},' + 
+'{"char": "ラ","sp": "ra"},{"char": "リ","sp": "ri"},{"char": "ル","sp": "ru"},{"char": "レ","sp": "re"},{"char": "ロ","sp": "ro"},' + 
+'{"char": "ワ","sp": "wa"},{"char": "ヲ","sp": "wo"},{"char": "ン","sp": "n"}]' +
+',' +
+'"other":[' + 
+'{"char": "が","sp": "ga"},{"char": "ぎ","sp": "gi"},{"char": "ぐ","sp": "gu"},{"char": "げ","sp": "ge"},{"char": "ご","sp": "go"},' + 
+'{"char": "ざ","sp": "za"},{"char": "じ","sp": "zi"},{"char": "ず","sp": "zu"},{"char": "ぜ","sp": "ze"},{"char": "ぞ","sp": "zo"},' + 
+'{"char": "だ","sp": "da"},{"char": "ぢ","sp": "zi"},{"char":"づ","sp": "zu"},{"char": "で","sp": "de"},{"char": "ど","sp": "do"},' + 
+'{"char": "ば","sp": "ba"},{"char": "び","sp": "bi"},{"char":"ぶ","sp": "bu"},{"char":"べ","sp": "be"},{"char": "ぼ","sp": "bo"},' + 
+'{"char": "ガ","sp": "ga"},{"char": "ギ","sp": "gi"},{"char": "グ","sp": "gu"},{"char": "ゲ","sp": "ge"},{"char": "ゴ","sp": "go"},' + 
+'{"char": "ザ","sp": "za"},{"char": "ジ","sp": "zi"},{"char": "ズ","sp": "zu"},{"char": "ゼ","sp": "ze"},{"char": "ゾ","sp": "zo"},' + 
+'{"char": "ダ","sp": "da"},{"char": "ヂ","sp": "zi"},{"char": "ヅ","sp": "zu"},{"char": "デ","sp": "de"},{"char": "ド","sp": "do"},' + 
+'{"char": "バ","sp": "ba"},{"char": "ビ","sp": "bi"},{"char": "ブ","sp": "bo"},{"char": "ベ","sp": "be"},{"char": "ボ","sp": "bo"},' + 
+'{"char": "ぱ","sp": "pa"},{"char": "ぴ","sp": "pi"},{"char": "ぷ","sp": "pu"},{"char": "ぺ","sp": "pe"},{"char": "ぽ","sp": "po"},' + 
+'{"char": "パ","sp": "pa"},{"char": "ピ","sp": "pi"},{"char": "プ","sp": "pu" },{"char": "ペ","sp": "pe"},{"char": "ポ","sp": "po"}]' +
+'}';
