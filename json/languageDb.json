@@ -20,5 +20,17 @@ japan = '{"hiragana":[' +
 '{"char": "マ","sp": "ma"},{"char": "ミ","sp": "mi"},{"char": "ム","sp": "mu"},{"char": "メ","sp": "me"},{"char": "モ","sp": "mo"},' + 
 '{"char": "ヤ","sp": "ya"},{"char": "ユ","sp": "yu"},{"char": "ユ","sp": "yo"},' + 
 '{"char": "ラ","sp": "ra"},{"char": "リ","sp": "ri"},{"char": "ル","sp": "ru"},{"char": "レ","sp": "re"},{"char": "ロ","sp": "ro"},' + 
-'{"char": "ワ","sp": "wa"},{"char": "ヲ","sp": "wo"},{"char": "ン","sp": "n"}' +
-']}' ;
+'{"char": "ワ","sp": "wa"},{"char": "ヲ","sp": "wo"},{"char": "ン","sp": "n"}]' +
+',' +
+'"other":[' + 
+'{"char": "が","sp": "a"},{"char":  "ぎ","sp": "i"},{"char":  "ぐ","sp": "u"},{"char":  "げ","sp": "e"},{"char":  "ご","sp": "o"},' + 
+'{"char": "ざ","sp": "ka"},{"char": "じ","sp": "ki"},{"char": "ず","sp": "ku"},{"char": "ぜ","sp": "ke"},{"char": "ぞ","sp": "ko"},' + 
+'{"char": "だ","sp": "sa"},{"char": "ぢ","sp": "shi"},{"char":"づ","sp": "su"},{"char": "で","sp": "se"},{"char": "ど","sp": "so"},' + 
+'{"char": "ば","sp": "ta"},{"char": "び","sp": "chi"},{"char":"ぶ","sp": "tsu"},{"char":"べ","sp": "te"},{"char": "ぼ","sp": "to"},' + 
+'{"char": "ガ","sp": "na"},{"char": "ギ","sp": "ni"},{"char": "グ","sp": "nu"},{"char": "ゲ","sp": "ne"},{"char": "ゴ","sp": "no"},' + 
+'{"char": "ザ","sp": "ha"},{"char": "ジ","sp": "hi"},{"char": "ズ","sp": "fu"},{"char": "ゼ","sp": "he"},{"char": "ゾ","sp": "ho"},' + 
+'{"char": "ダ","sp": "ma"},{"char": "ヂ","sp": "mi"},{"char": "ヅ","sp": "mu"},{"char": "デ","sp": "me"},{"char": "ド","sp": "mo"},' + 
+'{"char": "バ","sp": "ya"},{"char": "ビ","sp": "yu"},{"char": "ブ","sp": "yo"},{"char": "ベ","sp": "me"},{"char": "ボ","sp": "mo"},' + 
+'{"char": "ぱ","sp": "ra"},{"char": "ぴ","sp": "ri"},{"char": "ぷ","sp": "ru"},{"char": "ぺ","sp": "re"},{"char": "ぽ","sp": "ro"},' + 
+'{"char": "パ","sp": "wa"},{"char": "ピ","sp": "wo"},{"char": "プ","sp": "n" },{"char": "ペ","sp": "re"},{"char": "ポ","sp": "ro"}]' +
+'}';

@@ -357,7 +357,7 @@ document.getElementById('mode').style.color = 'coral';
 function hiraganamode(){
     num = 46;
     num_offset = 0;
-    mode_string = "Hiragana mode";
+    arrayMain = obj.hiragana;
     document.getElementById('mode').innerHTML = "Hiragana mode";
     document.getElementById('mode').style.color = 'coral';
     flag_hir = !flag_hir;
@@ -365,8 +365,8 @@ function hiraganamode(){
 
 function katakanamode(){
     num = 46;
-    num_offset = 46;
-    mode_string = "Hiragana mode";    
+    num_offset = 0;
+    arrayMain = obj.katakana;
     document.getElementById('mode').innerHTML = "Katakana mode";
     document.getElementById('mode').style.color = 'blue';
     flag_kat = !flag_kat;
@@ -375,7 +375,7 @@ function katakanamode(){
 function othermode(){
     num = 40;
     num_offset = 92;
-    mode_string = "Hiragana mode";
+    arrayMain = obj.hiragana;
     document.getElementById('mode').innerHTML = "Other mode";
     document.getElementById('mode').style.color = 'red';
     flag_oth = !flag_oth;
