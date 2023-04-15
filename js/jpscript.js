@@ -4,7 +4,6 @@ var score = 0;
 var count = 0;
 var num = 46;
 var num_offset = 0;
-var mode_string = "Hiragana mode";
 
 var flag_hir = 1;  
 var flag_kat = 0;  
@@ -18,58 +17,66 @@ var inputValue = "";
 var randomNum = randomMake();
 
 
-hiraganaArray= obj.hiragana;
-katakanaArray= obj.katakana;
-otherArray= obj.hiragana;
-arrayMain = obj.hiragana.concat(obj.katakana, obj.other);
+var arrayMain= []; 
+var oneArray= [];
+var twoArray= [];
+var threeArray= [];
+var allArray = [];
+
+function initialmode(){
+    arrayMain= obj.hiragana; 
+    oneArray= obj.hiragana;
+    twoArray= obj.katakana;
+    threeArray= obj.other;
+    allArray = obj.hiragana.concat(obj.katakana, obj.other);
+}
 
 document.getElementById('demo').innerHTML = arrayMain[randomNum].char;
 document.getElementById('mode').innerHTML = "Hiragana mode";
 document.getElementById('mode').style.color = 'coral';
 
-
-function hiraganamode(){
-    num = 46;
-    num_offset = 0;
+function oneMode(num, num_offest){
+    this.num = num;
+    this.num_offest = num_offest;
     randomNum = randomMake();
-    arrayMain = obj.hiragana;
+    arrayMain = oneArray;
     document.getElementById('mode').innerHTML = "Hiragana mode";
     document.getElementById('mode').style.color = 'coral';
     flag_hir = !flag_hir;
 }
 
-function katakanamode(){
-    num = 46;
-    num_offset = 0;
+function twoMode(num, num_offest){
+    this.num = num;
+    this.num_offest = num_offest;
     randomNum = randomMake();
-    arrayMain = obj.katakana;
+    arrayMain = twoArray;
     document.getElementById('mode').innerHTML = "Katakana mode";
     document.getElementById('mode').style.color = 'blue';
     flag_kat = !flag_kat;
 }
 
-function othermode(){
-    num = 50;
-    num_offset = 0;
+function threeMode(num, num_offest){
+    this.num = num;
+    this.num_offest = num_offest;
     randomNum = randomMake();
-    arrayMain = obj.other;
+    arrayMain = threeArray;
     document.getElementById('mode').innerHTML = "Other mode";
     document.getElementById('mode').style.color = 'red';
     flag_oth = !flag_oth;
 }
 
-function allmode(){
-    num = 142;
-    num_offset = 0;
+function allmode(num, num_offest){
+    this.num = num;
+    this.num_offest = num_offest;
     randomNum = randomMake();
-    arrayMain = obj.hiragana.concat(obj.katakana, obj.other);
+    arrayMain = allArray;
     document.getElementById('mode').innerHTML = "All mode";
     document.getElementById('mode').style.color = 'black';
     flag_ath = !flag_ath;
 }
 
 function randomMake(){
-    return (Math.floor(Math.random()*num)+ num_offset);
+    return (Math.floor(Math.random()*num)+num_offset);
 }
 
 function checkValue(){
@@ -102,7 +109,7 @@ function checkValue(){
       document.getElementById('demo').innerHTML = arrayMain[randomNum].char;
       input.value = "";
       count += 1;
-      document.getElementById('total').innerHTML = count;
+      document.getElementById('total').innerHTML = num;
       document.getElementById('rate').innerHTML = Math.floor((score/count)*100);
       document.getElementById('bar').value = Math.floor((score/count)*100);
      }
