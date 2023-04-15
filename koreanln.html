@@ -7,6 +7,7 @@
 <title>Korean</title>
 <script type="text/javascript" src="json/languageDb.json"></script>
 <script>const obj = JSON.parse(korean);</script>
+<script>var pageMark = "kr";</script>
 </head>
 
 <body>
@@ -18,17 +19,17 @@
     <h3>Language learning system</h3>
     <h8>Please press key space</h8>
     <h5 id="mode">Korean consonants mode</h5>
-    <p><button id="btn1" class="btn" onclick="consonantsmode()">consonants</button>&#160&#160
-        &#160&#160<button id="btn2" class="btn" onclick="vowelsmode()">voewls</button>&#160&#160
-        &#160&#160<button id="btn3" class="btn" onclick="ganadamode()">ganada</button>&#160&#160
-        &#160&#160<button id="btn4" class="btn" onclick="allmode()">All</button></p>
+    <p><button id="btn1" class="btn" onclick="oneMode(19, 0)">consonants</button>&#160&#160
+        &#160&#160<button id="btn2" class="btn" onclick="twoMode(21, 0)">voewls</button>&#160&#160
+        &#160&#160<button id="btn3" class="btn" onclick="threeMode(195, 0)">ganada</button>&#160&#160
+        &#160&#160<button id="btn4" class="btn" onclick="allmode(195, 0)">All</button></p>
 </div>
 
 <div class="row">
     <div class="column" style="background-color: white; text-align: right;"></div>
     <div class="column" style="background-color:white; text-align: center;">
         <b id="demo"></b>
-        <script src="js/krscript.js"></script></div>
+        <script src="js/jpscript.js"></script></div>
     <div class="column" style="background-color:white; text-align: left;"></div>
     
 </div>

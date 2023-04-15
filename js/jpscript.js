@@ -2,7 +2,7 @@ var checkFlag = 0 ;
 var checkFlag = 0 ;
 var score = 0;
 var count = 0;
-var num = 46;
+var num = 19;
 var num_offset = 0;
 
 var flag_hir = 1;  
@@ -23,11 +23,30 @@ var twoArray= [];
 var threeArray= [];
 var allArray = [];
 
+if (pageMark === "jp"){
+    num = 46;
     arrayMain= obj.hiragana; 
     oneArray= obj.hiragana;
     twoArray= obj.katakana;
     threeArray= obj.other;
     allArray = obj.hiragana.concat(obj.katakana, obj.other);
+}
+else if(pageMark === "kr"){
+    num = 19;
+    arrayMain= obj.consonants; 
+    oneArray= obj.consonants;
+    twoArray= obj.vowels;
+    threeArray= obj.ganada;
+    allArray = obj.consonants.concat(obj.vowels, obj.ganada);
+}
+else{
+    num = 19;
+    arrayMain= []; 
+    oneArray= [];
+    twoArray= [];
+    threeArray= [];
+    allArray = [];
+}
 
 document.getElementById('demo').innerHTML = arrayMain[randomNum].char;
 document.getElementById('mode').innerHTML = "Hiragana mode";
