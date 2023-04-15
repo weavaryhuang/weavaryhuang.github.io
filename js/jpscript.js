@@ -78,7 +78,7 @@ function checkValue(){
     if (event.key === "Enter" || event.key === " ") {
      event.preventDefault();
      inputValue = input.value;
-     if (inputputValue.toLowerCase() == arrayMain[randomNum].sp){
+     if (inputValue.toLowerCase() == arrayMain[randomNum].sp){
       checkFlag = 1;  
       document.getElementById('correction').innerHTML = 'Correct answer!!';
       document.getElementById('correction').style.color = 'green';
