@@ -49,7 +49,7 @@ function vowelsmode(){
 }
 
 function ganadamode(){
-    num = 150;
+    num = 195;
     num_offset = 0;
     randomNum = randomMake();
     arrayMain = obj.ganada;
@@ -59,7 +59,7 @@ function ganadamode(){
 }
 
 function allmode(){
-    num = 142;
+    num = 195;
     num_offset = 0;
     randomNum = randomMake();
     arrayMain = obj.consonants.concat(obj.vowels, obj.ganada);
