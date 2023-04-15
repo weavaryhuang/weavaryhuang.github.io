@@ -73,7 +73,7 @@ function randomMake(){
 function checkValue(){
     //var input = document.getElementById("answer");
     input.addEventListener("keypress", function(event) {
-    if (event.key === " ") {
+    if (event.key === "Enter" || event.key === " ") {
      event.preventDefault();
      if (input.value == arrayMain[randomNum].sp){
       checkFlag = 1;  
