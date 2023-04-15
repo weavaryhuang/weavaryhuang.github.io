@@ -12,6 +12,8 @@ var flag_oth = 0;
 var flag_ath = 0;  
 var flag_chm = 0;
 
+var inputValue = "";
+
 //let txt = '{"japan": [{"char": "あ","sp": "a"},{"char": "abc","sp": "i"}],"korean": [{"char": "aaa","sp": "bbb"}]}'
 var randomNum = randomMake();
 
@@ -75,7 +77,8 @@ function checkValue(){
     input.addEventListener("keypress", function(event) {
     if (event.key === "Enter" || event.key === " ") {
      event.preventDefault();
-     if (input.value == arrayMain[randomNum].sp){
+     inputValue = input.value;
+     if (inputputValue.toLowerCase() == arrayMain[randomNum].sp){
       checkFlag = 1;  
       document.getElementById('correction').innerHTML = 'Correct answer!!';
       document.getElementById('correction').style.color = 'green';
