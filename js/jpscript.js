@@ -23,13 +23,11 @@ var twoArray= [];
 var threeArray= [];
 var allArray = [];
 
-function initialmode(){
     arrayMain= obj.hiragana; 
     oneArray= obj.hiragana;
     twoArray= obj.katakana;
     threeArray= obj.other;
     allArray = obj.hiragana.concat(obj.katakana, obj.other);
-}
 
 document.getElementById('demo').innerHTML = arrayMain[randomNum].char;
 document.getElementById('mode').innerHTML = "Hiragana mode";
